@@ -29,7 +29,10 @@ const AppNavigator: React.FC = () => {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{headerTitle: 'Social App'}}
+          options={{
+            headerTitle: 'Social App',
+            headerBackVisible: false,
+          }}
         />
         <Stack.Screen
           name="PostDetails"
