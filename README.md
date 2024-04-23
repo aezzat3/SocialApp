@@ -31,6 +31,10 @@ A social mobile application built using React Native CLI and TypeScript. The app
 <img width="150" alt="Screenshot 2024-04-23 at 8 15 15 PM" src="https://github.com/aezzat3/SocialApp/assets/61430379/d6afc9a7-81af-4507-b4b8-fb0b650a63b4">
 <img width="150" alt="Screenshot 2024-04-23 at 8 16 51 PM" src="https://github.com/aezzat3/SocialApp/assets/61430379/3edb39ad-ac08-4be0-8802-06332c339bd3">
 
+## Video Link
+https://drive.google.com/file/d/17gRfQ0oVDwh5J9XrbPajJpevkOYHCSrr/view?usp=sharing
+
+
 ## Setup
 
 1. **Clone the repository**
