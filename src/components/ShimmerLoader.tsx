@@ -33,7 +33,7 @@ const ShimmerLoader: React.FC = () => {
         data={data}
         renderItem={renderItem}
         keyExtractor={item => item.toString()}
-        contentContainerStyle={{padding: 10}}
+        contentContainerStyle={styles.contentContainerStyle}
         showsVerticalScrollIndicator={false}
       />
     </View>
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
   },
+  contentContainerStyle: {padding: 10},
   shimmerText: {
     width: 100,
     height: 20,

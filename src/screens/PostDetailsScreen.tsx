@@ -29,7 +29,7 @@ const PostDetailsScreen = () => {
 
   if (status === 'loading') {
     return (
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <View style={styles.loadingContent}>
         <ActivityIndicator size={30} />
       </View>
     );
@@ -127,6 +127,7 @@ const styles = StyleSheet.create({
   commentsList: {
     flexGrow: 0,
   },
+  loadingContent: {flex: 1, justifyContent: 'center', alignItems: 'center'},
 });
 
 export default PostDetailsScreen;
